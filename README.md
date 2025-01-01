@@ -23,9 +23,11 @@ This project is a simple business card web page built using HTML, CSS, and JavaS
 ## Setup
 
 1. Clone the repository:
-   ```bash
-   git clone https://github.com/your-username/business-card.git
-   ```
+
+```bash
+git clone https://github.com/harish-govindasamy/business-card.git
+```
+
 2. Navigate to the project directory:
 
 ```
