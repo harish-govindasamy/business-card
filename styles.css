@@ -94,3 +94,19 @@ a {
   text-decoration: none;
   color: #4682b4;
 }
+
+.social-links {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  justify-content: center;
+}
+.social-links a {
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  color: #4682b4;
+}
+.social-links i {
+  margin-right: 5px;
+}
