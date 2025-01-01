@@ -67,7 +67,7 @@ Challenge:
     blue - #ddebf8
     purple - #d8cefe
     */
-  background: #f0f8ff;
+  background-color: rgba(255, 255, 255, 0.8);
   color: #2b2839;
   border-bottom: 8px solid #4682b4;
   border-radius: 20px;
