@@ -12,6 +12,9 @@ body {
   background-repeat: no-repeat;
 }
 
+.fab {
+  color: black;
+}
 /*
 Challenge:
 Set the width of the image to 150px.
@@ -89,5 +92,5 @@ Give the class to both flexbox children in the HTML.
 
 a {
   text-decoration: none;
-  color: #0092ff;
+  color: #4682b4;
 }
