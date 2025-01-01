@@ -1,0 +1,93 @@
+body {
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  font-family: "Pacifico", cursive;
+  letter-spacing: 2px;
+  background-image: url("https://images.unsplash.com/photo-1695736121420-dc4c7f0235cf?q=80&w=1895&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
+  background-size: cover; /* Ensure the image covers the entire background */
+  background-position: center; /* Center the background image */
+  background-repeat: no-repeat;
+}
+
+/*
+Challenge:
+Set the width of the image to 150px.
+PS: Use a class to select the img element.
+*/
+
+.avatar {
+  width: 150px;
+  border-radius: 20px;
+  display: block;
+  margin: 0 auto;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+.avatar:hover {
+  transform: scale(1.1); /* Scale the image up slightly */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Add a subtle shadow */
+}
+/*
+Challenge:
+1. Give the card div a class (name it "card")
+2. Select the card class and give it a dotted blue border
+3. Add 20 pixels of padding on all sides of the card
+*/
+
+.card {
+  /*
+    Challenge:
+    Give the card a width of 400px wide and center it.
+    */
+  width: 400px;
+  /* margin-left: auto;
+  margin-right: auto;
+   */
+  margin: 0;
+  text-align: center;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  /*
+    Challenge:
+    Add horizontal space around the flex children.
+    Hint: google "justify content"
+    */
+  justify-content: space-around;
+
+  /* 
+    Challenge:
+    Add colors to the card according to the design.
+    black - #2b2839 (the text color)
+    blue - #ddebf8
+    purple - #d8cefe
+    */
+  background: #f0f8ff;
+  color: #2b2839;
+  border-bottom: 8px solid #4682b4;
+  border-radius: 20px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.card:hover {
+  transform: scale(1.05); /* Scale the card up slightly */
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); /* Add a subtle shadow */
+}
+/*
+Challenge:
+Create a utility class for the dotted blue border.
+Give the class to both flexbox children in the HTML.
+*/
+/* .italic {
+  font-style: italic;
+} */
+/* .blue-border {
+  border: 1px dotted blue;
+} */
+
+a {
+  text-decoration: none;
+  color: #0092ff;
+}
