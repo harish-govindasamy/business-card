@@ -1,6 +1,6 @@
 # My Business Card
 
-![Business Card Preview](,/images/screenshot.png)
+![Business Card Preview](images/screenshot.png)
 
 ## Overview
 
@@ -38,9 +38,9 @@ cd business-card
 
 ## Usage
 
-[*] Modify the index.html file to update your personal information.
-[*] Customize the styles.css file to change the design and styles as needed.
-[*] Replace the avatar image in the images folder with your own image.
+- Modify the index.html file to update your personal information.
+- Customize the styles.css file to change the design and styles as needed.
+- Replace the avatar image in the images folder with your own image.
 
 ## License
 
